@@ -1,0 +1,94 @@
+* 
+{
+    margin: 0px;
+    padding: 0px;
+
+}
+#block{
+    width: 1300px;
+    height: auto;
+    margin: 0 auto;
+}
+.banner img{
+    width: 1300px;  
+
+}
+.logo {
+    text-align: center;
+}
+.text ul{
+    display: flex;
+    width: 550px;
+    margin: 0 auto;
+
+}
+.text ul li {
+    list-style: none;
+    margin: 10px ;
+}
+.text ul li a {
+    text-decoration: none;
+
+}
+/* main */
+.back-end {
+    /* thuộc tính grid dùng để chia cột */
+    display: grid;
+    /* dùng để phân chia cho grid có bao nhiêu cột t */
+    /* repeat dùng để viết ngắn gọn hơn về cách chia cột */
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 10px;
+}
+.main-conten .text {
+    width: 328px;
+    color: #fff;
+    background-color: #0E4C67    ;
+    text-align: center;
+    align-items: center;
+    padding: 28px 0 ;
+    margin-top: -4px;
+}
+.img-end  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center     ;
+    margin-top: 62.2px;
+}
+.footer{
+    height: 100px;
+    background-color: #0E4C67;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.button-footer{
+    justify-content: space-between;
+    align-items: center;
+}
+input.three {
+    width: 278px;
+    height: 50px;
+    background-color: #0E4C67;
+    border:2px solid #FFA800;
+    border-radius: 2px;
+}
+input.three::placeholder{
+    color: #fff;
+    padding: 10px;
+}
+input.four {
+    width: 134px;
+    height: 52px;
+    border-radius: 2px ;
+    background-color: #FFA800;
+    border: none;
+    color: #fff;
+    margin-right: 10px  ;
+}
+.end-img {
+    margin: 64px 0px;
+}
+.end-img img {
+    width: 1300px;
+}
